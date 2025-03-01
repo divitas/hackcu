@@ -180,8 +180,9 @@
         <p class="upload-message">Upload your study materials in PDF, DOCX, or TXT format.</p>
       
         <div class="upload-box">
-          <input type="file" (change)="onFileSelected($event)" accept=".pdf,.doc,.docx,.txt" />
-          <button (click)="uploadFile()" [disabled]="!selectedFile">Submit</button>
+          <input type="file" (change)="onFileSelected($event)" multiple>
+          <button (click)="uploadFiles()" [disabled]="selectedFiles.length == 0">Submit</button>
+          <p>{{ uploadMessage }}</p>
         </div>  
     </div>
 </body>
