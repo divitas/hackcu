@@ -19,8 +19,22 @@ export class LandingPageComponent {
   onFileSelected(event: Event): void {
     const input = event.target as HTMLInputElement;
     if (input.files && input.files.length > 0) {
-      this.selectedFiles = Array.from(input.files);
-      this.uploadMessage = `Selected files: ${this.selectedFiles.map(file => file.name).join(', ')}`;
+      let filesArray = Array.from(input.files);
+  
+      // Filter only allowed file types
+      const allowedTypes = ['application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'text/plain'];
+      const validFiles = filesArray.filter(file => allowedTypes.includes(file.type));
+  
+      if (filesArray.length > 5) {
+        this.uploadMessage = "You can only upload up to 5 files.";
+        this.selectedFiles = [];
+      } else if (validFiles.length !== filesArray.length) {
+        this.uploadMessage = "Only PDF, DOCX, and TXT files are allowed.";
+        this.selectedFiles = [];
+      } else {
+        this.selectedFiles = validFiles;
+        this.uploadMessage = `Selected files: ${this.selectedFiles.map(file => file.name).join(', ')}`;
+      }
     }
   }
 
