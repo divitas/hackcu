@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    /* font-family: Arial, sans-serif; */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .upload-message {
+    font-size: 16px;
+    color: #555;
+    margin-top: 50px;
+  }
+  
+  .upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin: 10px 0 10px 75px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
