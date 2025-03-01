@@ -181,13 +181,7 @@
       
         <div class="upload-box">
           <input type="file" (change)="onFileSelected($event)" accept=".pdf,.doc,.docx,.txt" />
-          <button (click)="uploadFile()" [disabled]="!selectedFile">Upload</button>
-        </div>
-      
-        <p *ngIf="uploadMessage">{{ uploadMessage }}</p>
-      </div>
-      
-    <!-- <a routerLink="/sign-in">Sign in</a>
-    <a routerLink="/sign-up">Sign up</a> -->
+          <button (click)="uploadFile()" [disabled]="!selectedFile">Submit</button>
+        </div>  
+    </div>
 </body>
-<!-- <p>landing-page works!</p> -->

@@ -1,0 +1,17 @@
+<div class="container">
+  
+
+  <div *ngIf="uploadedFile">
+    <h1>Summary Page</h1>
+  
+      <p><strong>File Name:</strong> {{ uploadedFile.name }}</p>
+      <p><strong>File Size:</strong> {{ (uploadedFile.size / 1024).toFixed(2) }} KB</p>
+      <p><strong>File Type:</strong> {{ uploadedFile.type }}</p>
+  <div>
+    <ng-template #noFile>
+      <p>No file uploaded.</p>
+    </ng-template>
+  
+    <button (click)="goBack()">Upload Another File</button>
+</div>
+  
