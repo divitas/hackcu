@@ -1,0 +1,30 @@
+<div class="container mt-4">
+    <h2 class="text-center">Quiz Results</h2>
+  
+    <!-- Display Score -->
+    <div class="alert alert-success text-center">
+      Your Score: {{ score }} / {{ questions.length }}
+    </div>
+  
+    <!-- Review Each Question -->
+    <div *ngFor="let question of questions; let i = index" class="card mb-4">
+      <div class="card-header">
+        <strong>Question {{ i + 1 }}</strong>
+      </div>
+      <div class="card-body">
+        <p>{{ question.question }}</p>
+        
+        <!-- Display Student's Answer -->
+        <p>
+          <strong>Your Answer:</strong> 
+          <span [ngClass]="{ 'text-danger': question.options[userAnswers[i]] !== question.answer, 'text-success': question.options[userAnswers[i]] === question.answer }">
+            {{ question.options[userAnswers[i]] || 'No answer' }}
+          </span>
+        </p>
+  
+        <!-- Display Correct Answer -->
+        <p><strong>Correct Answer:</strong> <span class="text-success">{{ question.answer }}</span></p>
+      </div>
+    </div>
+  </div>
+  
