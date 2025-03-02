@@ -30,6 +30,19 @@ public class QuizController {
         return ResponseEntity.ok("Quiz attempt submitted successfully");
     }
 
+    @GetMapping("/{id}")
+    private Quiz getQuizById(@PathVariable String id) {
+        Quiz quiz = quizService.getQuizById(id);
+
+        if (quiz == null) {
+            throw new RuntimeException("No quiz found for id: " + id);
+        }
+
+        return quiz;
+
+
+    }
+
     @GetMapping("/name")
     private List<Quiz> getQuizByName(@RequestParam("name") String name) {
         List<Quiz> quiz = quizService.getQuizByName(name);
