@@ -1,8 +1,10 @@
 package com.hackcu.study_assistant.service;
 
+import com.hackcu.study_assistant.model.Answer;
 import com.hackcu.study_assistant.model.Question;
 import com.hackcu.study_assistant.model.Quiz;
 import com.hackcu.study_assistant.model.QuizAttempt;
+import com.hackcu.study_assistant.repository.AnswerRepository;
 import com.hackcu.study_assistant.repository.QuizAttemptRepository;
 import com.hackcu.study_assistant.repository.QuizRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,9 @@ public class QuizService {
     @Autowired
     QuizAttemptRepository quizAttemptRepository;
 
+    @Autowired
+    AnswerRepository answerRepository;
+
     public void createNewQuiz(List<Question> questions, String summary, String name) {
         Quiz quiz = new Quiz(name, summary, questions);
         quizRepository.save(quiz);
@@ -27,6 +32,11 @@ public class QuizService {
 
     public void saveQuizAttempt(QuizAttempt quizAttempt) {
         quizAttemptRepository.save(quizAttempt);
+
+        for (Answer answer : quizAttempt.getAnswers()) {
+            answer.setAttemptId(quizAttempt.getId());  // Associate the attempt ID with each answer
+            answerRepository.save(answer);
+        }
     }
 
     public List<Quiz> getQuizByName(String name) {
