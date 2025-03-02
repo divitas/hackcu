@@ -1,0 +1,16 @@
+<div *ngIf="quizRequest">
+    <h2>{{ quizRequest.name }}</h2>
+    <p><strong>Summary:</strong> {{ quizRequest.summary }}</p>
+    <h3>Questions:</h3>
+    <ul>
+      <li *ngFor="let question of quizRequest.questions">
+        <p><strong>Question:</strong> {{ question.question }}</p>
+        <p><strong>Options:</strong></p>
+        <ul>
+          <li *ngFor="let option of question.options">{{ option }}</li>
+        </ul>
+        <p><strong>Answer:</strong> {{ question.answers }}</p>
+      </li>
+    </ul>
+  </div>
+  
