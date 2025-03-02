@@ -22,9 +22,13 @@ public class QuizController {
     private QuizService quizService;
 
     @PostMapping("/create-quiz")
-    public String createQuiz(@RequestBody QuizRequest quizRequest) {
+    public ResponseEntity<Map<String, String>> createQuiz(@RequestBody QuizRequest quizRequest) {
         quizService.createNewQuiz(quizRequest.getQuestions(), quizRequest.getSummary(), quizRequest.getName());
-        return "New quiz created successfully";
+        // Return a JSON response with success message
+        Map<String, String> response = new HashMap<>();
+        response.put("message", "New quiz created successfully");
+
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
 

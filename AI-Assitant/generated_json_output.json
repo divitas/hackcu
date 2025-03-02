@@ -1,0 +1,3112 @@
+{
+    "file_path": "/Users/divita/Documents/Projects/hackcu/AI-Assitant/artifacts/raw_data/test.pdf",
+    "mcq_data": {
+      "test.pdf": {
+        "id": "47d79086649ff6c64a93c078214ce738",
+        "queries": [
+          {
+            "correct answers": [
+              {
+                "answer": "John Doe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "score": 0.4041585922241211,
+                "type": "extractive"
+              },
+              {
+                "answer": "Joe Bloggs or John Smith",
+                "context": "the use of\n\"John Doe\" in a legal context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Ze",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 630,
+                    "start": 606
+                  }
+                ],
+                "score": 0.06505660712718964,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.028308868408203125,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "John Doe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "score": 0.4041585922241211,
+                "type": "extractive"
+              },
+              {
+                "answer": "Joe Bloggs or John Smith",
+                "context": "the use of\n\"John Doe\" in a legal context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Ze",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 630,
+                    "start": 606
+                  }
+                ],
+                "score": 0.06505660712718964,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.028308868408203125,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is used as placeholder names for a party whose true identity is unknown or must be withheld in a legal action, case, or discussion?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "John Doe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "score": 0.29165759682655334,
+                "type": "extractive"
+              },
+              {
+                "answer": "Baby Doe",
+                "context": "larly, a child or baby whose identity is unknown may be referred to as Baby Doe. A\nnotorious murder case in Kansas City, Missouri, referred to the bab",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1312,
+                    "start": 1304
+                  }
+                ],
+                "score": 0.06895662844181061,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe #1, John Doe #2",
+                "context": " anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"John Doe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1841,
+                    "start": 1817
+                  }
+                ],
+                "score": 0.035910747945308685,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "John Doe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "score": 0.29165759682655334,
+                "type": "extractive"
+              },
+              {
+                "answer": "Baby Doe",
+                "context": "larly, a child or baby whose identity is unknown may be referred to as Baby Doe. A\nnotorious murder case in Kansas City, Missouri, referred to the bab",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1312,
+                    "start": 1304
+                  }
+                ],
+                "score": 0.06895662844181061,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe #1, John Doe #2",
+                "context": " anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"John Doe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1841,
+                    "start": 1817
+                  }
+                ],
+                "score": 0.035910747945308685,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is used to refer to acorpse or hospital patient whose identity is unknown?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "United Kingdom",
+                "context": "ut is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context origina",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 523,
+                    "start": 509
+                  }
+                ],
+                "score": 0.14617115259170532,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Stiles and Richard Miles",
+                "context": "s of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand Mary Major has been used in some A",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 90,
+                    "start": 61
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 2028,
+                    "start": 1999
+                  }
+                ],
+                "score": 0.08496434986591339,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe",
+                "context": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 368,
+                    "start": 0
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1162,
+                    "start": 794
+                  }
+                ],
+                "score": 0.000776721746660769,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "United Kingdom",
+                "context": "ut is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context origina",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 523,
+                    "start": 509
+                  }
+                ],
+                "score": 0.14617115259170532,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Stiles and Richard Miles",
+                "context": "s of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand Mary Major has been used in some A",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 90,
+                    "start": 61
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 2028,
+                    "start": 1999
+                  }
+                ],
+                "score": 0.08496434986591339,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe",
+                "context": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 368,
+                    "start": 0
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1162,
+                    "start": 794
+                  }
+                ],
+                "score": 0.000776721746660769,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is rarely used in other English-speaking countries?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "United Kingdom",
+                "context": "ut is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context origina",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 523,
+                    "start": 509
+                  }
+                ],
+                "score": 0.7505742311477661,
+                "type": "extractive"
+              },
+              {
+                "answer": "popular culture",
+                "context": "ple of how to fill in the form. The name is also used\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\na",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 83,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1111,
+                    "start": 1096
+                  }
+                ],
+                "score": 0.19251835346221924,
+                "type": "extractive"
+              },
+              {
+                "answer": "UK",
+                "context": "al context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Zealand.\nJohn Doe is sometimes u",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 76,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 649,
+                    "start": 647
+                  }
+                ],
+                "score": 0.09624271094799042,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "United Kingdom",
+                "context": "ut is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context origina",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 523,
+                    "start": 509
+                  }
+                ],
+                "score": 0.7505742311477661,
+                "type": "extractive"
+              },
+              {
+                "answer": "popular culture",
+                "context": "ple of how to fill in the form. The name is also used\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\na",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 83,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1111,
+                    "start": 1096
+                  }
+                ],
+                "score": 0.19251835346221924,
+                "type": "extractive"
+              },
+              {
+                "answer": "UK",
+                "context": "al context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Zealand.\nJohn Doe is sometimes u",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 76,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 649,
+                    "start": 647
+                  }
+                ],
+                "score": 0.09624271094799042,
+                "type": "extractive"
+              }
+            ],
+            "query": "Where does the use of \"John Doe\" in a legal context originate?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "the\nUK",
+                "context": "egal context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Zealand.\nJohn Doe is sometimes",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 78,
+                    "start": 72
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 649,
+                    "start": 643
+                  }
+                ],
+                "score": 0.5549604296684265,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe / Roe\n/ Poe",
+                "context": "cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Mi",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 83,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1958,
+                    "start": 1943
+                  }
+                ],
+                "score": 0.0023192157968878746,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.0012292703613638878,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "the\nUK",
+                "context": "egal context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Zealand.\nJohn Doe is sometimes",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 78,
+                    "start": 72
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 649,
+                    "start": 643
+                  }
+                ],
+                "score": 0.5549604296684265,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe / Roe\n/ Poe",
+                "context": "cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Mi",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 83,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1958,
+                    "start": 1943
+                  }
+                ],
+                "score": 0.0023192157968878746,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.0012292703613638878,
+                "type": "extractive"
+              }
+            ],
+            "query": "What are the names Joe Bloggs or John Smith used in?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Joe Public",
+                "context": "ell, in a similar\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a fo",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 856,
+                    "start": 846
+                  }
+                ],
+                "score": 0.763002336025238,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe",
+                "context": "requently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimi",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1162,
+                    "start": 1154
+                  }
+                ],
+                "score": 0.000360849458957091,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.00021376321092247963,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Joe Public",
+                "context": "ell, in a similar\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a fo",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 856,
+                    "start": 846
+                  }
+                ],
+                "score": 0.763002336025238,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe",
+                "context": "requently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimi",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1162,
+                    "start": 1154
+                  }
+                ],
+                "score": 0.000360849458957091,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.00021376321092247963,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is John Q. Public known as in Great Britain?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "John Doe",
+                "context": "h or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to prov",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 946,
+                    "start": 938
+                  }
+                ],
+                "score": 0.7184547781944275,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe",
+                "context": " several anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1825,
+                    "start": 1817
+                  }
+                ],
+                "score": 0.5802955031394958,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "John Doe",
+                "context": "h or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to prov",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 946,
+                    "start": 938
+                  }
+                ],
+                "score": 0.7184547781944275,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe",
+                "context": " several anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1825,
+                    "start": 1817
+                  }
+                ],
+                "score": 0.5802955031394958,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is the first name listed on a form?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "John Doe",
+                "context": "in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimilarly, a c",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1172,
+                    "start": 1164
+                  }
+                ],
+                "score": 0.005067057441920042,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.001756001845933497,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "John Doe",
+                "context": "in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimilarly, a c",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1172,
+                    "start": 1164
+                  }
+                ],
+                "score": 0.005067057441920042,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.001756001845933497,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is the name of the Frank Capra film Meet John Doe?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "2002",
+                "context": "e in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimilarly, a child or baby whose identity is",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 77,
+                    "start": 73
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1200,
+                    "start": 1196
+                  }
+                ],
+                "score": 0.9910398721694946,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public",
+                "context": "efer to a typical male in other contexts as well, in a similar\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Blogg",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 818,
+                    "start": 794
+                  }
+                ],
+                "score": 0.008635987527668476,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.0022744827438145876,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "2002",
+                "context": "e in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimilarly, a child or baby whose identity is",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 77,
+                    "start": 73
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1200,
+                    "start": 1196
+                  }
+                ],
+                "score": 0.9910398721694946,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public",
+                "context": "efer to a typical male in other contexts as well, in a similar\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Blogg",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 818,
+                    "start": 794
+                  }
+                ],
+                "score": 0.008635987527668476,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.0022744827438145876,
+                "type": "extractive"
+              }
+            ],
+            "query": "In what year did a television series use the name \"John Doe\"?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "a fictional address",
+                "context": "le, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to f",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 66
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 978,
+                    "start": 959
+                  }
+                ],
+                "score": 0.5300412178039551,
+                "type": "extractive"
+              },
+              {
+                "answer": "parties",
+                "context": "multaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 72
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1772,
+                    "start": 1765
+                  }
+                ],
+                "score": 0.016410745680332184,
+                "type": "extractive"
+              },
+              {
+                "answer": "Meet John Doe",
+                "context": "d\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nS",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 69
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1162,
+                    "start": 1149
+                  }
+                ],
+                "score": 0.0036166426725685596,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "a fictional address",
+                "context": "le, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to f",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 66
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 978,
+                    "start": 959
+                  }
+                ],
+                "score": 0.5300412178039551,
+                "type": "extractive"
+              },
+              {
+                "answer": "parties",
+                "context": "multaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 72
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1772,
+                    "start": 1765
+                  }
+                ],
+                "score": 0.016410745680332184,
+                "type": "extractive"
+              },
+              {
+                "answer": "Meet John Doe",
+                "context": "d\nfrequently in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nS",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 69
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1162,
+                    "start": 1149
+                  }
+                ],
+                "score": 0.0036166426725685596,
+                "type": "extractive"
+              }
+            ],
+            "query": "What fictional information is used to provide an example of how to fill in the form?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "John Doe",
+                "context": "in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimilarly, a c",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1172,
+                    "start": 1164
+                  }
+                ],
+                "score": 0.9162706136703491,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.004579596221446991,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "score": 0.0013097426854074001,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "John Doe",
+                "context": "in popular culture, for example in the Frank Capra film Meet John Doe. John Doe was\nalso the name of a 2002 American television series.\nSimilarly, a c",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1172,
+                    "start": 1164
+                  }
+                ],
+                "score": 0.9162706136703491,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.004579596221446991,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 19,
+                    "start": 11
+                  }
+                ],
+                "score": 0.0013097426854074001,
+                "type": "extractive"
+              }
+            ],
+            "query": "What was the name of a 2002 American television series?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Baby Doe",
+                "context": "larly, a child or baby whose identity is unknown may be referred to as Baby Doe. A\nnotorious murder case in Kansas City, Missouri, referred to the bab",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1312,
+                    "start": 1304
+                  }
+                ],
+                "score": 0.9316768646240234,
+                "type": "extractive"
+              },
+              {
+                "answer": "Janie Doe",
+                "context": " for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifically are used as plac",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 100,
+                    "start": 91
+                  }
+                ],
+                "score": 0.2590046226978302,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe #1, John Doe #2",
+                "context": " anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"John Doe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1841,
+                    "start": 1817
+                  }
+                ],
+                "score": 0.09745964407920837,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Baby Doe",
+                "context": "larly, a child or baby whose identity is unknown may be referred to as Baby Doe. A\nnotorious murder case in Kansas City, Missouri, referred to the bab",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1312,
+                    "start": 1304
+                  }
+                ],
+                "score": 0.9316768646240234,
+                "type": "extractive"
+              },
+              {
+                "answer": "Janie Doe",
+                "context": " for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifically are used as plac",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 100,
+                    "start": 91
+                  }
+                ],
+                "score": 0.2590046226978302,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe #1, John Doe #2",
+                "context": " anonymous\nparties are referenced, they may simply be labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"John Doe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1841,
+                    "start": 1817
+                  }
+                ],
+                "score": 0.09745964407920837,
+                "type": "extractive"
+              }
+            ],
+            "query": "What may a child or baby whose identity is unknown be referred to as?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Kansas City, Missouri",
+                "context": "known may be referred to as Baby Doe. A\nnotorious murder case in Kansas City, Missouri, referred to the baby victim as Precious Doe.\nOther unidentifie",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 86,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1362,
+                    "start": 1341
+                  }
+                ],
+                "score": 0.7951657176017761,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address",
+                "context": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 184,
+                    "start": 0
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 978,
+                    "start": 794
+                  }
+                ],
+                "score": 0.002713466063141823,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe / Roe",
+                "context": "go cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1952,
+                    "start": 1943
+                  }
+                ],
+                "score": 0.001134107238613069,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Kansas City, Missouri",
+                "context": "known may be referred to as Baby Doe. A\nnotorious murder case in Kansas City, Missouri, referred to the baby victim as Precious Doe.\nOther unidentifie",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 86,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1362,
+                    "start": 1341
+                  }
+                ],
+                "score": 0.7951657176017761,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address",
+                "context": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 184,
+                    "start": 0
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 978,
+                    "start": 794
+                  }
+                ],
+                "score": 0.002713466063141823,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe / Roe",
+                "context": "go cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1952,
+                    "start": 1943
+                  }
+                ],
+                "score": 0.001134107238613069,
+                "type": "extractive"
+              }
+            ],
+            "query": "In what city was a baby victim named Precious Doe?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Cali Doe and Princess Doe",
+                "context": " as Precious Doe.\nOther unidentified female murder victims are Cali Doe and Princess Doe. Additional persons\nmay be called James Doe, Judy Doe, etc. H",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 88,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1479,
+                    "start": 1454
+                  }
+                ],
+                "score": 0.9317169189453125,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jane Doe\" or \"Jane Roe\"",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 56,
+                    "start": 33
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 56,
+                    "start": 33
+                  }
+                ],
+                "score": 0.4941118061542511,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.025771472603082657,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Cali Doe and Princess Doe",
+                "context": " as Precious Doe.\nOther unidentified female murder victims are Cali Doe and Princess Doe. Additional persons\nmay be called James Doe, Judy Doe, etc. H",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 88,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1479,
+                    "start": 1454
+                  }
+                ],
+                "score": 0.9317169189453125,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jane Doe\" or \"Jane Roe\"",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 56,
+                    "start": 33
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 56,
+                    "start": 33
+                  }
+                ],
+                "score": 0.4941118061542511,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.025771472603082657,
+                "type": "extractive"
+              }
+            ],
+            "query": "What are the names of female murder victims?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Judy Doe",
+                "context": "Cali Doe and Princess Doe. Additional persons\nmay be called James Doe, Judy Doe, etc. However, to avoid possible confusion, if two\nanonymous or unknow",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1533,
+                    "start": 1525
+                  }
+                ],
+                "score": 0.4196105897426605,
+                "type": "extractive"
+              },
+              {
+                "answer": "Poe",
+                "context": "21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles ar",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 77,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1958,
+                    "start": 1955
+                  }
+                ],
+                "score": 0.014891868457198143,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jane Roe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 55,
+                    "start": 47
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 55,
+                    "start": 47
+                  }
+                ],
+                "score": 0.0017195867840200663,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Judy Doe",
+                "context": "Cali Doe and Princess Doe. Additional persons\nmay be called James Doe, Judy Doe, etc. However, to avoid possible confusion, if two\nanonymous or unknow",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1533,
+                    "start": 1525
+                  }
+                ],
+                "score": 0.4196105897426605,
+                "type": "extractive"
+              },
+              {
+                "answer": "Poe",
+                "context": "21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles ar",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 77,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1958,
+                    "start": 1955
+                  }
+                ],
+                "score": 0.014891868457198143,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jane Roe",
+                "context": "The names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifica",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 55,
+                    "start": 47
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 55,
+                    "start": 47
+                  }
+                ],
+                "score": 0.0017195867840200663,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is another name for James Doe?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Cali Doe and Princess Doe",
+                "context": " as Precious Doe.\nOther unidentified female murder victims are Cali Doe and Princess Doe. Additional persons\nmay be called James Doe, Judy Doe, etc. H",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 88,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1479,
+                    "start": 1454
+                  }
+                ],
+                "score": 0.3404830992221832,
+                "type": "extractive"
+              },
+              {
+                "answer": "a party whose true identity is unknown",
+                "context": "n-gender-specifically are used as placeholder names\nfor a party whose true identity is unknown or must be withheld in a legal action, case, or\ndiscuss",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 94,
+                    "start": 56
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 226,
+                    "start": 188
+                  }
+                ],
+                "score": 0.025709515437483788,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jane Roe",
+                "context": "ames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply be labe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1733
+                  }
+                ],
+                "score": 0.02119910530745983,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Cali Doe and Princess Doe",
+                "context": " as Precious Doe.\nOther unidentified female murder victims are Cali Doe and Princess Doe. Additional persons\nmay be called James Doe, Judy Doe, etc. H",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 88,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1479,
+                    "start": 1454
+                  }
+                ],
+                "score": 0.3404830992221832,
+                "type": "extractive"
+              },
+              {
+                "answer": "a party whose true identity is unknown",
+                "context": "n-gender-specifically are used as placeholder names\nfor a party whose true identity is unknown or must be withheld in a legal action, case, or\ndiscuss",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 94,
+                    "start": 56
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 226,
+                    "start": 188
+                  }
+                ],
+                "score": 0.025709515437483788,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jane Roe",
+                "context": "ames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply be labe",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 79,
+                    "start": 71
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1733
+                  }
+                ],
+                "score": 0.02119910530745983,
+                "type": "extractive"
+              }
+            ],
+            "query": "Who are the victims of murder?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "21",
+                "context": " labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Po",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 76,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1883,
+                    "start": 1881
+                  }
+                ],
+                "score": 0.9686598777770996,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "21",
+                "context": " labelled John Doe #1, John Doe #2, etc. (the U.S.\nOperation Delego cited 21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Po",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 76,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1883,
+                    "start": 1881
+                  }
+                ],
+                "score": 0.9686598777770996,
+                "type": "extractive"
+              }
+            ],
+            "query": "How many \"John Doe\"s were cited by Operation Delego?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Joe Bloggs or John Smith",
+                "context": "the use of\n\"John Doe\" in a legal context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Ze",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 630,
+                    "start": 606
+                  }
+                ],
+                "score": 0.21359562873840332,
+                "type": "extractive"
+              },
+              {
+                "answer": "Poe",
+                "context": "21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles ar",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 77,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1958,
+                    "start": 1955
+                  }
+                ],
+                "score": 0.18813970685005188,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jonnie Doe",
+                "context": "names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifically ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 84,
+                    "start": 74
+                  }
+                ],
+                "score": 0.08337866514921188,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Joe Bloggs or John Smith",
+                "context": "the use of\n\"John Doe\" in a legal context originates. The names Joe Bloggs or John Smith are used in the\nUK instead, as well as in Australia and New Ze",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 630,
+                    "start": 606
+                  }
+                ],
+                "score": 0.21359562873840332,
+                "type": "extractive"
+              },
+              {
+                "answer": "Poe",
+                "context": "21 (numbered) \"John Doe\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles ar",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 77,
+                    "start": 74
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1958,
+                    "start": 1955
+                  }
+                ],
+                "score": 0.18813970685005188,
+                "type": "extractive"
+              },
+              {
+                "answer": "Jonnie Doe",
+                "context": "names \"John Doe\" for males, \"Jane Doe\" or \"Jane Roe\" for females, or \"Jonnie Doe\" and\n\"Janie Doe\" for children, or just \"Doe\" non-gender-specifically ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 80,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 84,
+                    "start": 74
+                  }
+                ],
+                "score": 0.08337866514921188,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is another name for John Doe?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "manner to John Q. Public",
+                "context": "efer to a typical male in other contexts as well, in a similar\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Blogg",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 818,
+                    "start": 794
+                  }
+                ],
+                "score": 0.01829090341925621,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.00751892663538456,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.005216946359723806,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "manner to John Q. Public",
+                "context": "efer to a typical male in other contexts as well, in a similar\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Blogg",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 818,
+                    "start": 794
+                  }
+                ],
+                "score": 0.01829090341925621,
+                "type": "extractive"
+              },
+              {
+                "answer": "John Doe v. Jane Roe",
+                "context": "e surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If several anonymous\nparties are referenced, they may simply b",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 85,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1741,
+                    "start": 1721
+                  }
+                ],
+                "score": 0.00751892663538456,
+                "type": "extractive"
+              },
+              {
+                "answer": "Doe and\nRoe",
+                "context": " unknown parties are cited in a specific case or action, the surnames Doe and\nRoe may be used simultaneously; for example, \"John Doe v. Jane Roe\". If ",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 81,
+                    "start": 70
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1678,
+                    "start": 1667
+                  }
+                ],
+                "score": 0.005216946359723806,
+                "type": "extractive"
+              }
+            ],
+            "query": "What is a variant of Doe / Roe/ Poe?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "early alternatives",
+                "context": ") or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand Ma",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 84,
+                    "start": 66
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1990,
+                    "start": 1972
+                  }
+                ],
+                "score": 0.02529294788837433,
+                "type": "extractive"
+              },
+              {
+                "answer": "United Kingdom itself",
+                "context": "is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context originates",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 86,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 530,
+                    "start": 509
+                  }
+                ],
+                "score": 0.010148826986551285,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture",
+                "context": "\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 318,
+                    "start": 1
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1111,
+                    "start": 794
+                  }
+                ],
+                "score": 0.0003391190548427403,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "early alternatives",
+                "context": ") or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand Ma",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 84,
+                    "start": 66
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1990,
+                    "start": 1972
+                  }
+                ],
+                "score": 0.02529294788837433,
+                "type": "extractive"
+              },
+              {
+                "answer": "United Kingdom itself",
+                "context": "is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context originates",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 86,
+                    "start": 65
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 530,
+                    "start": 509
+                  }
+                ],
+                "score": 0.010148826986551285,
+                "type": "extractive"
+              },
+              {
+                "answer": "manner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture",
+                "context": "\nmanner to John Q. Public, known in Great Britain as Joe Public, John Smith or Joe Bloggs. For\nexample, the first name listed on a form is often John Doe, along with a fictional address or\nother fictional information to provide an example of how to fill in the form. The name is also used\nfrequently in popular culture",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 318,
+                    "start": 1
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1111,
+                    "start": 794
+                  }
+                ],
+                "score": 0.0003391190548427403,
+                "type": "extractive"
+              }
+            ],
+            "query": "John Stiles and Richard Miles are now rarely used?"
+          },
+          {
+            "correct answers": [
+              {
+                "answer": "Other early alternatives",
+                "context": "e\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1990,
+                    "start": 1966
+                  }
+                ],
+                "score": 0.011931602843105793,
+                "type": "extractive"
+              },
+              {
+                "answer": "Mary Major",
+                "context": " etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand Mary Major has been used in some American federal cases.",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 104,
+                    "start": 94
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 2064,
+                    "start": 2054
+                  }
+                ],
+                "score": 0.0024247600231319666,
+                "type": "extractive"
+              },
+              {
+                "answer": "United Kingdom",
+                "context": "ut is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context origina",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 523,
+                    "start": 509
+                  }
+                ],
+                "score": 0.0022812315728515387,
+                "type": "extractive"
+              }
+            ],
+            "generated_options": [
+              {
+                "answer": "Other early alternatives",
+                "context": "e\"s) or labelled with other variants of Doe / Roe\n/ Poe / etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 87,
+                    "start": 63
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 1990,
+                    "start": 1966
+                  }
+                ],
+                "score": 0.011931602843105793,
+                "type": "extractive"
+              },
+              {
+                "answer": "Mary Major",
+                "context": " etc. Other early alternatives such as John Stiles and Richard Miles are now rarely used,\nand Mary Major has been used in some American federal cases.",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 104,
+                    "start": 94
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 2064,
+                    "start": 2054
+                  }
+                ],
+                "score": 0.0024247600231319666,
+                "type": "extractive"
+              },
+              {
+                "answer": "United Kingdom",
+                "context": "ut is rarely used in\nother English-speaking countries including the United Kingdom itself, from where the use of\n\"John Doe\" in a legal context origina",
+                "document_ids": [
+                  "47d79086649ff6c64a93c078214ce738"
+                ],
+                "meta": {
+                  "_split_id": 0,
+                  "name": "test.pdf"
+                },
+                "offsets_in_context": [
+                  {
+                    "end": 82,
+                    "start": 68
+                  }
+                ],
+                "offsets_in_document": [
+                  {
+                    "end": 523,
+                    "start": 509
+                  }
+                ],
+                "score": 0.0022812315728515387,
+                "type": "extractive"
+              }
+            ],
+            "query": "Mary Major has been used in some American federal cases."
+          }
+        ],
+        "summary": {
+          "summary": "the names are used as placeholder names for a party whose true identity is unknown. the names are also used to refer to acorpse or hospital patient whose identity is unknown. this practice is widely used in the united states and canada, but rarely used in other countries.",
+          "title": "the names are used as placeholder names for"
+        }
+      }
+    },
+    "message": "File successfully uploaded"
+  }

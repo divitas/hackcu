@@ -18,7 +18,6 @@ export class QuizComponent implements OnInit {
   timerTurn: boolean = false;
   score: number = 0;
   answers: any[] = [];
-
   studentId: string = '67c395db62c1e76a149cb28b'; // Hardcoded student ID
 
   constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) {}
