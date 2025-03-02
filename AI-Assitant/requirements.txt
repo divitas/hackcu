@@ -4,3 +4,5 @@ docx
 farm-haystack
 farm-haystack[file-conversion]
 farm-haystack[preprocessing]
+farm-haystack[inference]
+tf-keras

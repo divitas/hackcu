@@ -7,8 +7,8 @@ __version__ = "0.0.0"
 
 REPO_NAME = "hackcu"
 AUTHOR_USER_NAME = "divitas"
-SRC_REPO = "AIAssistant"
-AUTHOR_EMAIL = "Sheetal.Sharma@colorado.edu"
+SRC_REPO = "hackcu"
+AUTHOR_EMAIL = "divita.phadakale@colorado.edu"
 
 setuptools.setup(
     name=SRC_REPO,
