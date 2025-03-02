@@ -1,25 +1,27 @@
 <div class="sidebar" [class.collapsed]="isCollapsed">
-  <button class="toggle-btn" (click)="toggleSidebar()">☰</button>
+  <button class="toggle-btn" (click)="toggleSidebar()">
+    <i class="fas fa-bars"></i>
+  </button>
   <ul>
-    <li>
-      <span class="icon">🏠</span>
-      <a routerLink="/dashboard">Dashboard</a>
+    <li (click)="navigateTo('/landing-page')">
+      <span class="icon"><i class="fas fa-home"></i></span>
+      <a>Dashboard</a>
     </li>
-    <li>
-      <span class="icon">📚</span>
-      <a routerLink="/flashcards">Flashcards</a>
+    <li (click)="navigateTo('/flashcard')">
+      <span class="icon"><i class="fas fa-book-open"></i></span>
+      <a>Flashcards</a>
     </li>
-    <li>
-      <span class="icon">📝</span>
-      <a routerLink="/quiz">Quiz</a>
+    <li (click)="navigateTo('/quizzes')">
+      <span class="icon"><i class="fas fa-clipboard-list"></i></span>
+      <a>Quiz</a>
     </li>
-    <li>
-      <span class="icon">📊</span>
-      <a routerLink="/results">Results</a>
+    <li (click)="navigateTo('/summary-page')">
+      <span class="icon"><i class="fas fa-chart-bar"></i></span>
+      <a>Results</a>
     </li>
-    <li>
-      <span class="icon">⚙️</span>
-      <a routerLink="/settings">Settings</a>
+    <li (click)="navigateTo('/settings')">
+      <span class="icon"><i class="fas fa-cog"></i></span>
+      <a>Settings</a>
     </li>
   </ul>
 </div>
