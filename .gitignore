@@ -1,0 +1,15 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE specific files
+.vscode/
+
+artifacts/
+models/
+
+logs/
+__pycache__/
+*.log
+
+
+

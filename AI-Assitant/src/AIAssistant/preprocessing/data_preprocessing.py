@@ -1,23 +1,33 @@
+import sys
 import os
-from src.AIAssitant import logger
+
+# Get the root directory of the project
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+sys.path.append(ROOT_DIR)
+from src.AIAssistant import logger
 from haystack.utils import fetch_archive_from_http
 from haystack.nodes import TextConverter, PDFToTextConverter, DocxToTextConverter, PreProcessor
 from haystack.utils import convert_files_to_docs
 from haystack.nodes import PreProcessor
 from pathlib import Path
-data_dir = Path("artifacts/raw_data")
-files = [file for file in data_dir.iterdir() if file.is_file()]
-
-
-for file_path in files:
-    if file_path.suffix == ".txt":
-        converter = TextConverter(remove_numeric_tables=True, valid_languages=["en"])
-        doc_txt = converter.convert(file_path=file_path, meta=None)[0]
-    elif file_path.suffix == ".pdf":
-        converter = PDFToTextConverter(remove_numeric_tables=True, valid_languages=["en"])
-        doc_pdf = converter.convert(file_path=file_path, meta=None)[0]
-    elif file_path.suffix == ".docx":
-        converter = DocxToTextConverter(remove_numeric_tables=False, valid_languages=["en"])
-        doc_docx = converter.convert(file_path=file_path, meta=None)[0]
-    else:
-        raise ValueError(f"Invalid file type. We only support .txt, .pdf, .docx for now.")
+def data_preprocessing():
+    logger.info("Data Preprocessing started.")
+    data_dir = Path("artifacts/raw_data")
+    files = [file for file in data_dir.iterdir() if file.is_file()]
+    logger.info(f"Found {files} in the data directory.")
+    logger.info("Converting files to haystack docs.")
+    all_docs = convert_files_to_docs(dir_path=data_dir)
+    preprocessor = PreProcessor(
+        clean_empty_lines=True,
+        clean_whitespace=True,
+        clean_header_footer=False,
+        split_by="word",
+        split_length=500,
+        split_respect_sentence_boundary=True,
+    )
+    docs = preprocessor.process(all_docs)
+    logger.info("Data Preprocessing completed.")
+    return docs
+if __name__ == "__main__":
+    docs = data_preprocessing()
+    print(docs)
