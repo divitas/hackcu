@@ -1,26 +1,26 @@
 <div class="sidebar" [class.collapsed]="isCollapsed">
   <button class="toggle-btn" (click)="toggleSidebar()">
-    <i class="fas fa-bars"></i>
+    <i class="bi bi-list"></i> <!-- Bootstrap Icon for toggle -->
   </button>
   <ul>
     <li (click)="navigateTo('/landing-page')">
-      <span class="icon"><i class="fas fa-home"></i></span>
+      <span class="icon"><i class="bi bi-house-door"></i></span> <!-- Home Icon -->
       <a>Dashboard</a>
     </li>
     <li (click)="navigateTo('/flashcard')">
-      <span class="icon"><i class="fas fa-book-open"></i></span>
+      <span class="icon"><i class="bi bi-book"></i></span> <!-- Book Open Icon -->
       <a>Flashcards</a>
     </li>
     <li (click)="navigateTo('/quizzes')">
-      <span class="icon"><i class="fas fa-clipboard-list"></i></span>
+      <span class="icon"><i class="bi bi-list-check"></i></span> <!-- List Check Icon -->
       <a>Quiz</a>
     </li>
     <li (click)="navigateTo('/results')">
-      <span class="icon"><i class="fas fa-chart-bar"></i></span>
+      <span class="icon"><i class="bi bi-bar-chart"></i></span> <!-- Bar Chart Icon -->
       <a>Results</a>
     </li>
     <li (click)="navigateTo('/settings')">
-      <span class="icon"><i class="fas fa-cog"></i></span>
+      <span class="icon"><i class="bi bi-gear"></i></span> <!-- Settings Icon -->
       <a>Settings</a>
     </li>
   </ul>

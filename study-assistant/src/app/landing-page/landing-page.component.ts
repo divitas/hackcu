@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
 import { SummaryPageComponent } from '../summary-page/summary-page.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-landing-page',
@@ -20,11 +20,11 @@ export class LandingPageComponent {
     const input = event.target as HTMLInputElement;
     if (input.files && input.files.length > 0) {
       let filesArray = Array.from(input.files);
-  
+
       // Filter only allowed file types
       const allowedTypes = ['application/pdf', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'text/plain'];
       const validFiles = filesArray.filter(file => allowedTypes.includes(file.type));
-  
+
       if (filesArray.length > 5) {
         this.uploadMessage = "You can only upload up to 5 files.";
         this.selectedFiles = [];
@@ -46,11 +46,13 @@ export class LandingPageComponent {
 
     this.uploadMessage = "Uploading files... Please wait.";
 
-    // Simulating upload
+    // Simulate upload
     setTimeout(() => {
       this.uploadMessage = "Upload successful!";
       this.selectedFiles = [];
     }, 2000);
+
+    // Navigate to summary page after upload
     this.router.navigate(['/summary-page']);
   }
 }

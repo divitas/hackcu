@@ -1,28 +1,23 @@
+/* Global Styles */
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    background-color: #fafafa;
-    color: #444;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light pastel background */
+  }
+  
+  .flashcard-app {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-  }
-  
-  .flashcard-app {
-    width: 100%;
-    max-width: 900px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    box-sizing: border-box;
+    background-color: #f0f4f8;
   }
   
   .quiz-list {
     text-align: center;
     padding: 20px;
-    font-family: 'Poppins', sans-serif;
+    color: #444444; /* Dark gray text */
   }
   
   .quiz-cards-container {
@@ -55,13 +50,13 @@ body {
   
   .version {
     font-size: 14px;
-    color: #888;
+    color: #acb5d1; /* Light grayish-blue text */
     margin-top: 10px;
   }
   
   .summary {
     font-size: 16px;
-    color: #666;
+    color: #444444;
     margin: 10px 0;
   }
   
@@ -78,7 +73,7 @@ body {
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #6c72ff; /* Accent pastel indigo */
     color: white;
     border: none;
     border-radius: 5px;
@@ -86,7 +81,7 @@ body {
   }
   
   .back-btn:hover {
-    background-color: #0056b3;
+    background-color: #5a60e0; /* Slightly darker on hover */
   }
   
   .flashcard-container {
@@ -130,12 +125,12 @@ body {
   }
   
   .flashcard-front {
-    background: #ffffff;
-    color: #444;
+    background: #ffffff; /* White for the front */
+    color: #444444;
   }
   
   .flashcard-back {
-    background: #007bff;
+    background: linear-gradient(145deg, #6c72ff, #acb5d1); /* Soft indigo gradient */
     color: #fff;
     transform: rotateY(180deg);
   }
@@ -154,7 +149,7 @@ body {
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #6c72ff; /* Accent pastel indigo */
     color: white;
     border: none;
     border-radius: 5px;
@@ -162,7 +157,7 @@ body {
   }
   
   button.nav-btn:hover {
-    background-color: #0056b3;
+    background-color: #5a60e0; /* Slightly darker on hover */
   }
   
   button.nav-btn:disabled {
@@ -184,9 +179,9 @@ body {
       max-width: 250px;
     }
   }
-
+  
   .start-btn {
-    background: #007bff;
+    background: #6c72ff;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -198,8 +193,19 @@ body {
   }
   
   .start-btn:hover {
-    background: #0056b3;
+    background: #5a60e0;
     transform: scale(1.05);
   }
   
+  /* Style for icons in buttons */
+  button i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  /* Specific button styling */
+  .start-btn i, .back-btn i, .nav-btn i {
+    font-size: 20px;
+    color: #fff;
+  }
   
