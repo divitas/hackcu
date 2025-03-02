@@ -7,7 +7,6 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SummaryPageComponent } from './summary-page/summary-page.component';
 import { NgModule } from '@angular/core';
 import { QuizResultsComponent } from './quiz-result/quiz-result.component';
-import { TestQuizComponent } from './test-quiz/test-quiz.component';
 
 export const routes: Routes = [
     { path: 'quiz/:quizId', component: QuizComponent },
@@ -15,8 +14,7 @@ export const routes: Routes = [
       { path: 'landing-page', component: LandingPageComponent },
     { path: 'summary-page', component: SummaryPageComponent },
     {path: 'quizzes', component:QuizListComponent},
-    {path: 'results', component:QuizResultsComponent},
-    {path: 'test', component:TestQuizComponent}
+    {path: 'results', component:QuizResultsComponent}
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
