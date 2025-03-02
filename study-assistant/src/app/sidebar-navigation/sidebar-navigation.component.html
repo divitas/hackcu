@@ -1,0 +1,25 @@
+<div class="sidebar" [class.collapsed]="isCollapsed">
+  <button class="toggle-btn" (click)="toggleSidebar()">☰</button>
+  <ul>
+    <li>
+      <span class="icon">🏠</span>
+      <a routerLink="/dashboard">Dashboard</a>
+    </li>
+    <li>
+      <span class="icon">📚</span>
+      <a routerLink="/flashcards">Flashcards</a>
+    </li>
+    <li>
+      <span class="icon">📝</span>
+      <a routerLink="/quiz">Quiz</a>
+    </li>
+    <li>
+      <span class="icon">📊</span>
+      <a routerLink="/results">Results</a>
+    </li>
+    <li>
+      <span class="icon">⚙️</span>
+      <a routerLink="/settings">Settings</a>
+    </li>
+  </ul>
+</div>
