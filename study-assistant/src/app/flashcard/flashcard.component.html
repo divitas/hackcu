@@ -1,0 +1,20 @@
+<div class="container mt-4 text-center">
+    <h2>Flashcards</h2>
+  
+    <div class="flashcard" (click)="toggleAnswer()" [class.flipped]="showAnswer">
+      <div class="card-content">
+        <div class="card-front">
+          <p>{{ questions[currentIndex]?.question }}</p>
+        </div>
+        <div class="card-back">
+          <p>{{ questions[currentIndex]?.answer }}</p>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="previousCard()" [disabled]="currentIndex <= 0">
+        Back
+      </button>
+    <button class="btn btn-primary mt-3" (click)="nextCard()" [disabled]="currentIndex >= questions.length - 1">
+      Next
+    </button>
+  </div>
