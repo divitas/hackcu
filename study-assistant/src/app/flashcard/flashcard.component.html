@@ -1,20 +1,47 @@
-<div class="container mt-4 text-center">
-    <h2>Flashcards</h2>
-  
-    <div class="flashcard" (click)="toggleAnswer()" [class.flipped]="showAnswer">
-      <div class="card-content">
-        <div class="card-front">
-          <p>{{ questions[currentIndex]?.question }}</p>
-        </div>
-        <div class="card-back">
-          <p>{{ questions[currentIndex]?.answer }}</p>
+<div class="flashcard-app">
+    <div class="quiz-list" *ngIf="!selectedQuizId">
+      <h2>Available Flashcards</h2>
+      <hr>
+      <div class="quiz-cards-container">
+        <div
+          class="quiz-card"
+          *ngFor="let quiz of quizzes"
+          
+        >
+          <div class="quiz-header">
+            <h3>{{ quiz.name }}</h3>
+            <p class="summary">{{ quiz.summary }}</p>
+            <span class="version">Version: {{ quiz.version || 'Latest' }}</span>
+            <button class="start-btn" (click)="startFlashcards(quiz._id)">Start Flashcards</button>
+          </div>
         </div>
       </div>
     </div>
-    <button class="btn btn-primary mt-3" (click)="previousCard()" [disabled]="currentIndex <= 0">
-        Back
-      </button>
-    <button class="btn btn-primary mt-3" (click)="nextCard()" [disabled]="currentIndex >= questions.length - 1">
-      Next
-    </button>
+  
+    <!-- Show selected quiz's flashcards -->
+    <div *ngIf="selectedQuizId" class="flashcard-section">
+      <div class="navigation">
+        <button class="back-btn" (click)="goBackToQuizzes()">Back to All Flashcards</button>
+      </div>
+      <h2>Flashcards for Selected Quiz</h2>
+      <div class="flashcard-container">
+        <div class="flashcard" *ngIf="questions.length > 0">
+          <div class="flashcard-inner" [ngClass]="{ flipped: showAnswer }" (click)="toggleAnswer()">
+            <div class="flashcard-front">
+              <p>{{ questions[currentIndex]?.question }}</p>
+            </div>
+            <div class="flashcard-back">
+              <p><strong>Answer: </strong>{{ questions[currentIndex]?.answers }}</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Navigation Buttons -->
+        <div class="flashcard-footer">
+          <button class="nav-btn" (click)="previousCard()" [disabled]="currentIndex === 0">Previous</button>
+          <button class="nav-btn" (click)="nextCard()" [disabled]="currentIndex === questions.length - 1">Next</button>
+        </div>
+      </div>
+    </div>
   </div>
+  

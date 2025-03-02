@@ -5,10 +5,13 @@ import com.hackcu.study_assistant.model.QuizAttempt;
 import com.hackcu.study_assistant.model.QuizRequest;
 import com.hackcu.study_assistant.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @CrossOrigin(origins = "*")
@@ -24,10 +27,31 @@ public class QuizController {
         return "New quiz created successfully";
     }
 
+
     @PostMapping("/attempt")
-    public ResponseEntity<String> submitQuiz(@RequestBody QuizAttempt quizAttempt) {
+    public ResponseEntity<Map<String, String>> submitQuiz(@RequestBody QuizAttempt quizAttempt) {
+        // Save the quiz attempt
         quizService.saveQuizAttempt(quizAttempt);
-        return ResponseEntity.ok("Quiz attempt submitted successfully");
+
+        // Return a JSON response with success message
+        Map<String, String> response = new HashMap<>();
+        response.put("message", "Quiz attempt submitted successfully");
+
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+
+    @GetMapping("/{id}")
+    private Quiz getQuizById(@PathVariable String id) {
+        Quiz quiz = quizService.getQuizById(id);
+
+        if (quiz == null) {
+            throw new RuntimeException("No quiz found for id: " + id);
+        }
+
+        return quiz;
+
+
     }
 
     @GetMapping("/name")
@@ -55,6 +79,14 @@ public class QuizController {
 
 
     }
+
+    // Controller to handle fetching quiz attempts by student
+    @GetMapping("/attempts/{studentId}")
+    public ResponseEntity<List<QuizAttempt>> getQuizAttemptsByStudent(@PathVariable String studentId) {
+        List<QuizAttempt> quizAttempts = quizService.getQuizAttemptsByStudent(studentId);
+        return ResponseEntity.ok(quizAttempts);
+    }
+
 
     @GetMapping("/result/{studentId}/{quizId}")
     private QuizAttempt getQuizAttempt(@PathVariable String studentId, @PathVariable String quizId) {

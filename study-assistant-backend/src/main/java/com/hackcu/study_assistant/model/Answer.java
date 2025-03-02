@@ -1,5 +1,6 @@
 package com.hackcu.study_assistant.model;
 
+import com.mongodb.lang.Nullable;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -7,19 +8,19 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Answer {
     @Id
     private String id;
-
+    @Nullable
     private String attemptId;
-    private String questionId;
+    private Question question;
     private String studentAnswer;
     private Boolean isCorrect;
 
     public Answer() {
     }
 
-    public Answer(String id, String attemptId, String questionId, String studentAnswer, Boolean isCorrect) {
+    public Answer(String id, @Nullable String attemptId, Question question, String studentAnswer, Boolean isCorrect) {
         this.id = id;
         this.attemptId = attemptId;
-        this.questionId = questionId;
+        this.question = question;
         this.studentAnswer = studentAnswer;
         this.isCorrect = isCorrect;
     }
@@ -33,20 +34,21 @@ public class Answer {
         this.id = id;
     }
 
+    @Nullable
     public String getAttemptId() {
         return attemptId;
     }
 
-    public void setAttemptId(String attemptId) {
+    public void setAttemptId(@Nullable String attemptId) {
         this.attemptId = attemptId;
     }
 
-    public String getQuestionId() {
-        return questionId;
+    public Question getQuestion() {
+        return question;
     }
 
-    public void setQuestionId(String questionId) {
-        this.questionId = questionId;
+    public void setQuestion(Question question) {
+        this.question = question;
     }
 
     public String getStudentAnswer() {

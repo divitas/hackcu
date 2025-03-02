@@ -1,67 +1,92 @@
-import { Component, inject, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Question } from '../../models/question.model';
-import { ResultComponent } from '../result/result.component';
-import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-quiz',
-  standalone: true,
-  imports: [FormsModule, CommonModule, HttpClientModule, ResultComponent],
+  imports: [CommonModule, FormsModule, HttpClientModule],
   templateUrl: './quiz.component.html',
-  styleUrl: './quiz.component.css'
+  styleUrls: ['./quiz.component.css']
 })
 export class QuizComponent implements OnInit {
-  questions: Question[] = [];
-  userAnswers: number[] = [];
+  quizId: string = '';
+  questions: any[] = [];
+  timer: number = 60;
+  submitted: boolean = false;
+  timerTurn: boolean = false;
   score: number = 0;
-  timer: number = 0;
-  showResults: boolean = false;
+  answers: any[] = [];
 
-  constructor(private http: HttpClient, private router: Router) {}
+  studentId: string = '67c395db62c1e76a149cb28b'; // Hardcoded student ID
+
+  constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
-    this.fetchQuestions();
+    this.route.paramMap.subscribe(params => {
+      this.quizId = params.get('quizId') || '';
+      if (this.quizId) {
+        this.fetchQuiz();
+      }
+    });
     this.startTimer();
   }
 
-  fetchQuestions() {
-    this.http.get('http://localhost:8080/api/v1/quiz/quizzes').subscribe((data: any) => {
-      this.questions = data[0]?.questions || []; 
+  fetchQuiz() {
+    this.http.get(`http://localhost:8080/api/v1/quiz/${this.quizId}`).subscribe((quiz: any) => {
+      this.questions = quiz.questions;
     });
   }
 
   startTimer() {
-    this.timer = 60;
     const interval = setInterval(() => {
       if (this.timer > 0) {
         this.timer--;
       } else {
         clearInterval(interval);
-        this.calculateResults();
+        this.submitQuiz();  // Automatically submit quiz when time runs out
       }
     }, 1000);
   }
 
-  selectAnswer(questionIndex: number, selectedOptionIndex: number) {
-    this.userAnswers[questionIndex] = selectedOptionIndex;
-  }
-
-  calculateResults() {
-    this.score = this.questions.reduce((score, question, index) => {
-      const userAnswer = question.options[this.userAnswers[index]];
-      return score + (userAnswer === question.answer ? 1 : 0);
-    }, 0);
-  }
-
   submitQuiz() {
-    this.calculateResults();
-    this.showResults = true;
+    this.timerTurn = true;
+    this.submitted = true;
+    this.score = 0;
+    this.answers = [];
+
+    this.questions.forEach((question: any) => {
+      const isCorrect = question.selectedAnswer === question.answers; // compare selected answer with correct answer
+      this.answers.push({
+        question: question,
+        studentAnswer: question.selectedAnswer,
+        isCorrect: isCorrect
+      });
+
+      if (isCorrect) {
+        this.score++;
+      }
+    });
+
+    const result = {
+      studentId: this.studentId,
+      quizId: this.quizId,
+      attemptedAt: new Date().toISOString(),
+      score: this.score,
+      totalQuestions: this.questions.length,
+      answers: this.answers
+    };
+
+    console.log(result);
+
+    // Send the result to the backend
+    this.http.post('http://localhost:8080/api/v1/quiz/attempt', result).subscribe(response => {
+      console.log('Result saved:', response);
+    });
   }
 
-  goToFlashcards() {
-    this.router.navigate(['/flashcard'])
+  navigateToQuiz(route: string) {
+    this.router.navigate([route]);
   }
 }

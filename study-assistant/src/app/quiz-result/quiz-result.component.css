@@ -1,0 +1,62 @@
+/* Basic styling for the results table */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  .card {
+    margin-top: 20px;
+  }
+  
+  .card-header {
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-header,
+  .card-body {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Color for correct and incorrect answers */
+  .text-success {
+    color: green;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
