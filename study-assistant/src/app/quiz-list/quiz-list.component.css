@@ -1,43 +1,68 @@
 .quiz-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-  }
-  
-  .quiz-card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-  }
-  
-  .quiz-header h3 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .quiz-questions {
-    margin-top: 10px;
-  }
-  
-  .question {
-    margin-bottom: 15px;
-  }
-  
-  .question p {
-    font-size: 16px;
-  }
-  
-  .question ul {
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  
-  .question li {
-    font-size: 14px;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.quiz-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quiz-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.quiz-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.version {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.summary {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.start-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.start-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
