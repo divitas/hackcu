@@ -80,6 +80,14 @@ public class QuizController {
 
     }
 
+    // Controller to handle fetching quiz attempts by student
+    @GetMapping("/attempts/{studentId}")
+    public ResponseEntity<List<QuizAttempt>> getQuizAttemptsByStudent(@PathVariable String studentId) {
+        List<QuizAttempt> quizAttempts = quizService.getQuizAttemptsByStudent(studentId);
+        return ResponseEntity.ok(quizAttempts);
+    }
+
+
     @GetMapping("/result/{studentId}/{quizId}")
     private QuizAttempt getQuizAttempt(@PathVariable String studentId, @PathVariable String quizId) {
         QuizAttempt result = quizService.getQuizAttemptByIds(studentId, quizId);

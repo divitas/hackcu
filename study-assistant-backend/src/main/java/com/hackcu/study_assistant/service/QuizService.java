@@ -55,4 +55,9 @@ public class QuizService {
         Optional<Quiz> quizResponse = quizRepository.findById(id);
         return quizResponse.orElse(null);
     }
+
+    public List<QuizAttempt> getQuizAttemptsByStudent(String studentId) {
+        // Fetch all quiz attempts for the student
+        return quizAttemptRepository.findByStudentId(studentId);
+    }
 }
